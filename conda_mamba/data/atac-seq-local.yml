@@ -1,0 +1,14 @@
+name: atac-seq-local
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+  - r
+dependencies:
+  - python=3.8
+  - bioconda::bioconductor-sradb
+  - bioconda::bioconductor-atacseqqc
+  - openjdk=17
+  - bioconda::igv
+  - conda-forge::xvfbwrapper
+prefix: /Users/siyuansmac/anaconda3/envs/atac-seq-local

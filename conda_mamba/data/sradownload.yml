@@ -1,0 +1,9 @@
+name: sradownload
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+  - r
+dependencies:
+  - aspera-cli
+prefix: /Users/siyuansmac/anaconda3/envs/sradownload

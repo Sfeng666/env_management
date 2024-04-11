@@ -1,0 +1,19 @@
+name: bmi877_hw1
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+  - r
+dependencies:
+  - rsem=1.3.3
+  - bowtie2=2.4.1
+  - star=2.7.6a
+  - samtools=1.9
+  - sra-tools=2.8.0
+  - plink
+  - parallel
+  - gawk
+  - bedtools
+  - openjdk
+  - mysqlclient
+prefix: /Users/siyuansmac/anaconda3/envs/bmi877_hw1
